@@ -251,6 +251,7 @@ body {
      .image-section img{
           width: 80%;
           animation: none;
+          border-radius: 20px;
      }
 }
 #Skills {
