@@ -249,7 +249,7 @@ body {
 }
 @media screen  and (max-width:600px){
      .image-section img{
-          width: 90%;
+          width: 80%;
           animation: none;
      }
 }
