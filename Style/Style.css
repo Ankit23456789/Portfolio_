@@ -36,9 +36,9 @@ body {
      color: #fff;
      font-weight: 700;
      font-size: 35px;
-     background: linear-gradient(to right, #fffee7, #fff176,#23cfcc, #eedd44);
+     /* background: linear-gradient(to right, #fffee7, #fff176,#23cfcc, #eedd44);
      -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text;
+     -webkit-background-clip: text; */
 }
 
 
@@ -442,11 +442,13 @@ body {
      width: 100%;
      height: fit-content;
      margin-top:20px;
-
+     padding: 20px;
      background-image: url('/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     border-radius: 20px;
+     box-shadow:palevioletred 10px 6px 8px;
 }
 
 .Contact_Section_Heading {
@@ -521,7 +523,17 @@ body {
      width: 100%;
      min-height: 100px;
 }
-
+.contact-image-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.contact-box-image{
+      width: 60%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: white 5px 8px 6px;
+}
 .textareabox {
      width: 100%;
      border-radius: 5px;
