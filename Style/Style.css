@@ -525,7 +525,7 @@ body {
       width: 60%;
       border-radius: 20px;
       box-shadow: white 5px 8px 6px;
-      filter: contrast(200%);
+      filter: contrast(120%);
 }
 .contact-box-image:hover{
       /* filter:hue-rotate(90deg) ; */
