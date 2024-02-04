@@ -12,7 +12,5 @@ document.querySelectorAll(".nav-link").forEach(n => n.
  
 }))
 AOS.init({
-    duration:400,
-    easing:'ease-in-out',
-    offset:300,
+     disable:'mobile',
 });

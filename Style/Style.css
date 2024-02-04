@@ -26,8 +26,8 @@ body {
      justify-content: space-between;
      padding-left: 30px;
      padding-right: 30px;
-     background-color: #000000;
-     /* position: fixed; */
+     background-color: #00000081;
+     position: fixed;
      z-index: 1000;
 
 }
@@ -239,32 +239,22 @@ body {
      color: rgb(255, 255, 255);
 }
 
+.image-section :hover{
+      box-shadow: #ffffff 8px 8px 6px ;
+}
 .image-section img {
      width: 60%;
-     border: solid rgb(140, 140, 140) 5px;
-     animation: image-animate;
-     animation-duration: 5s;
-     animation-fill-mode: forwards;
-     animation-delay: 1s;
-     animation-timing-function: ease;
-     animation-iteration-count: infinite;
-     box-shadow: rgb(255, 255, 255) 12px 10px 6px;
+     border: solid rgb(0, 0, 0) 5px;
+     box-shadow: #95ff00 10px 10px 8px;
+     border-radius: 10%;
+     filter: contrast(130%);
+     
 }
 
-@keyframes image-animate {
-     0% {
-          border-radius: 10% 15% 20% 10%;
-     }
 
-     100% {
-          border-radius: 50%;
-
-     }
-}
 @media screen  and (max-width:600px){
      .image-section img{
           width: 80%;
-          animation: none;
           border-radius: 20px;
      }
      .about-Heading-P {
@@ -415,7 +405,7 @@ body {
      font-size: 25px;
      color: #eeff00;
      font-weight: 700;
-     text-shadow: #b3ff00 8px 6px 8px;
+     /* text-shadow: #b3ff00 8px 6px 8px; */
 }
 
 .isotope-overlay .proejct_demo_buttons {
@@ -444,11 +434,12 @@ body {
      margin-top:20px;
      padding: 20px;
      background-image: url('/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg');
+    
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      border-radius: 20px;
-     box-shadow:palevioletred 10px 6px 8px;
+     box-shadow:rgb(255, 0, 85) 10px 6px 8px;
 }
 
 .Contact_Section_Heading {
@@ -507,7 +498,9 @@ body {
      font-weight: 700;
      border-radius: 10px;
 }
-
+/* .form-section{
+      overflow-x: hidden;
+} */
 .contact-inputs {
      display: flex;
      align-items: center;
@@ -530,9 +523,13 @@ body {
 }
 .contact-box-image{
       width: 60%;
-      height: auto;
       border-radius: 20px;
       box-shadow: white 5px 8px 6px;
+      filter: contrast(200%);
+}
+.contact-box-image:hover{
+      /* filter:hue-rotate(90deg) ; */
+      filter:none
 }
 .textareabox {
      width: 100%;
