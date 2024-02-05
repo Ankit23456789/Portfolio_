@@ -175,7 +175,10 @@ body {
      font-size: 48px;
      font-weight: 700;
 }
-
+.specific-profile-paragraph{
+      font-size: 25px;
+      font-weight: 600;
+}
 .Download_cv_button {
      width: 12rem;
      height: 4rem;
@@ -186,6 +189,7 @@ body {
      box-sizing: border-box;
      box-shadow: white 9px 9px 8px;
      color: #fff;
+     margin-top: 20px;
 }
 
 .Download_cv_button:hover {
@@ -243,7 +247,7 @@ body {
       box-shadow: #ffffff 8px 8px 6px ;
 }
 .image-section img {
-     width: 60%;
+     width: 50%;
      border: solid rgb(0, 0, 0) 5px;
      box-shadow: #95ff00 10px 10px 8px;
      border-radius: 10%;
@@ -252,7 +256,7 @@ body {
 }
 
 
-@media screen  and (max-width:600px){
+@media (max-width:500px){
      .image-section img{
           width: 80%;
           border-radius: 20px;
@@ -310,7 +314,7 @@ body {
      font-size: 18px;
      width: 100%;
      margin: 0 auto;
-     font-weight: 700;
+     font-weight: 600;
      /* text-shadow: #000000 5px 5px 2px ; */
 }
 
@@ -574,4 +578,40 @@ body {
 .Footer-p {
      font-size: 18px;
      text-align: center;
+}
+
+/* responseive styling starting point  */
+@media  (max-width:500px) {
+     .specific-profile-paragraph {
+          font-size: 20px;
+          font-weight: 600;
+      }
+      .home-section .home-page-p1 {
+          font-size: 38px;
+          font-weight: 700;
+      }
+      .logo p {
+          color: #fff;
+          font-weight: 700;
+          font-size: 30px;
+      }
+      .skills-Heading {
+          font-size: 25px;
+          font-weight: 700;
+      }
+      .portfolio-heading {
+          font-size: 25px;
+          font-weight: 700;
+      }
+      .portfolio_p {
+          font-size: 16px;
+          width: 100%;
+          margin: 0 auto;
+          font-weight: 600;
+      }
+      .Contact_Section_Heading {
+          font-size: 25px;
+          font-weight: 700;
+          text-align: center;
+      }
 }
