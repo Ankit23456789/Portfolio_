@@ -26,7 +26,7 @@ body {
      justify-content: space-between;
      padding-left: 30px;
      padding-right: 30px;
-     background-color: #00000081;
+     background-color: #000000c2;
      position: fixed;
      z-index: 1000;
 
@@ -233,21 +233,24 @@ body {
      text-decoration: none;
 }
  .instaclass:hover{
-   color:#c13584;
+   color:#ff0090;
 }
 .linkedinclass:hover{
       color:#0A66C2;
 }
+.githubclass:hover{
+      color: #000000;
+}
 .social_media-icons i {
-     font-size: 30px;
-     color: rgb(255, 255, 255);
+     font-size: 25px;
+     color: #2dff26;
 }
 
 .image-section :hover{
       box-shadow: #ffffff 8px 8px 6px ;
 }
 .image-section img {
-     width: 50%;
+     width: 90%;
      border: solid rgb(0, 0, 0) 5px;
      box-shadow: #95ff00 10px 10px 8px;
      border-radius: 10%;
