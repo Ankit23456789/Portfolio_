@@ -27,7 +27,7 @@ body {
      padding-left: 30px;
      padding-right: 30px;
      background-color: #000000c2;
-     position: fixed;
+     /* position: fixed; */
      z-index: 1000;
 
 }
@@ -531,8 +531,8 @@ body {
 .contact-box-image{
       width: 60%;
       border-radius: 20px;
-      box-shadow: white 5px 8px 6px;
-      filter: contrast(120%);
+      box-shadow: white 10px 8px 6px;
+      filter: contrast(160%);
 }
 .contact-box-image:hover{
       /* filter:hue-rotate(90deg) ; */
