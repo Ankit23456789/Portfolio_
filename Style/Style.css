@@ -36,9 +36,9 @@ body {
      color: #fff;
      font-weight: 700;
      font-size: 35px;
-     /* background: linear-gradient(to right, #fffee7, #fff176,#23cfcc, #eedd44);
+     background: linear-gradient(to right, #fffee7, #fff176,#23cfcc, #eedd44);
      -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text; */
+     -webkit-background-clip: text;
 }
 
 
@@ -166,7 +166,7 @@ body {
      justify-content: flex-start;
 }
 .Hero-profile{
-     background: linear-gradient(to right, #67f321, #ff0808,#23cfcc, #ee44a7);
+     background: linear-gradient(to right, #15ff00, #ffffff,#23cfcc,#eeff00);
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text;  
      /* text-shadow: yellow 4px 4px 4px; */
