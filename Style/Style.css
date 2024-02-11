@@ -169,7 +169,7 @@ body {
      background: linear-gradient(to right, #15ff00, #ffffff,#23cfcc,#eeff00);
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text;  
-     /* text-shadow: yellow 4px 4px 4px; */
+     
 }
 .home-section .home-page-p1 {
      font-size: 48px;
@@ -187,7 +187,7 @@ body {
      background-color: black;
      border-radius: 10px;
      box-sizing: border-box;
-     box-shadow: white 9px 9px 8px;
+     box-shadow: rgb(68, 255, 0) 9px 9px 8px;
      color: #fff;
      margin-top: 20px;
 }
@@ -207,7 +207,7 @@ body {
      background-color: black;
      border-radius: 10px;
      box-sizing: border-box;
-     box-shadow: white 9px 9px 8px;
+     box-shadow: rgb(68, 255, 0) 9px 9px 8px;
      color: #fff;
 }
 
