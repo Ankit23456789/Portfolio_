@@ -36,7 +36,7 @@ body {
      color: #fff;
      font-weight: 700;
      font-size: 35px;
-     background: linear-gradient(to right, #fffee7, #fff176,#23cfcc, #eedd44);
+     background: linear-gradient(to right, #fffee7,#15ff00,#23cfcc, #eedd44);
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text;
 }
@@ -376,10 +376,11 @@ body {
      height: 100%;
      width: 100%;
      display: flex;
-     align-items: center;
+     align-items: center;left: 0px;
      text-transform: uppercase;
      justify-content: center;
      flex-direction: column;
+     background-color: #15ff00aa;
      -webkit-transform: scale(0);
      -moz-transform: scale(0);
      -ms-transform: scale(0);
@@ -410,7 +411,7 @@ body {
 
 .Project-numbers-P {
      font-size: 25px;
-     color: #eeff00;
+     color: #ffffff;
      font-weight: 700;
      /* text-shadow: #b3ff00 8px 6px 8px; */
 }
@@ -446,7 +447,7 @@ body {
      background-repeat: no-repeat;
      background-size: cover;
      border-radius: 20px;
-     box-shadow:rgb(255, 0, 85) 10px 6px 8px;
+     box-shadow:#15ff00 10px 6px 8px;
 }
 
 .Contact_Section_Heading {
@@ -531,7 +532,7 @@ body {
 .contact-box-image{
       width: 60%;
       border-radius: 20px;
-      box-shadow: white 10px 8px 6px;
+      box-shadow: #15ff00 10px 8px 6px;
       filter: contrast(160%);
 }
 .contact-box-image:hover{
