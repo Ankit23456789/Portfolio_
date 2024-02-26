@@ -36,9 +36,7 @@ body {
      color: #fff;
      font-weight: 700;
      font-size: 35px;
-     background: linear-gradient(to right, #fffee7,#15ff00,#23cfcc, #eedd44);
-     -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text;
+     color: #ffff;
 }
 
 
@@ -166,9 +164,9 @@ body {
      justify-content: flex-start;
 }
 .Hero-profile{
-     background: linear-gradient(to right, #15ff00, #ffffff,#23cfcc,#eeff00);
-     -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text;  
+
+   color: #ffff;
+   text-shadow: #15ff00 3px 3px 2px ;
      
 }
 .home-section .home-page-p1 {
@@ -410,7 +408,7 @@ body {
 }
 
 .Project-numbers-P {
-     font-size: 25px;
+     font-size: 20px;
      color: #000000;
      font-weight: 700;
      /* text-shadow: #b3ff00 8px 6px 8px; */
