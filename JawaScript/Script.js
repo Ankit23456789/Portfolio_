@@ -16,7 +16,7 @@ AOS.init({
 });
 
 
-
+// script for scroll to top button 
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -35,3 +35,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// script for Load more button for  show all projects.
+
+$(".image-card").slice(0,3).show();
+
+$(".load_More").on("click",function(){
+  $(".image-card:hidden").show();
+  $(".load_More").hide();
+})

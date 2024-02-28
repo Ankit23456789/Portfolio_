@@ -438,14 +438,13 @@ body {
      width: 100%;
      height: fit-content;
      margin-top:20px;
-     padding: 20px;
-     background-image: url('/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg');
-    
+     padding:30px;
+     /* background-image: url('/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg');
      background-position: center;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: cover; */
      border-radius: 20px;
-     box-shadow:#15ff00 10px 6px 8px;
+     /* box-shadow:#15ff00 10px 6px 8px; */
 }
 
 .Contact_Section_Heading {
@@ -460,6 +459,7 @@ body {
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     padding: 20px;
 }
 
 .contact-cards {
@@ -528,9 +528,10 @@ body {
       justify-content: center;
 }
 .contact-box-image{
-      width: 60%;
-      border-radius: 20px;
-      box-shadow: #15ff00 10px 8px 6px;
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: #15ff00 8px 8px 6px;
       filter: contrast(160%);
 }
 .contact-box-image:hover{
@@ -553,20 +554,21 @@ body {
      text-align: center;
      width: max-content;
      padding: 10px;
+     box-shadow: #15ff00 10px 8px 6px;
 }
 
-.submit_button:hover {
+/* .submit_button:hover {
      border: 3px solid rgb(0, 255, 60);
      font-size: 20px;
      /* font-variant: small-caps; */
-}
+*/
 
 /*  Contact Me  section style end*/
 /*  Footer Section style started*/
-.footer {
+/* .footer{
      width: 100%;
      height: 100px;
-     background-color: #000000;
+     background-color: #fff !important;
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -574,8 +576,9 @@ body {
      gap: 20px;
      flex-wrap: wrap;
      margin-top: 20px;
+     padding: 100px;
 
-}
+} */
 
 .Footer-p {
      font-size: 18px;
@@ -659,3 +662,25 @@ body {
      border-radius: 10px;
      box-shadow: 5px 5px 4px  rgb(255, 255, 255);
    }
+
+
+.image-card{
+      display: none;
+}
+.loadmore-button-container{
+     width: 100%;
+     height: fit-content;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.load_More{
+      width: 150px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 10px;
+      background-color: #000000;
+      color: #ffffff;
+      box-shadow:#15ff00 10px 8px 6px ;
+}
